@@ -1,6 +1,6 @@
 {
   "name": "dummy-array",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Very simple package for creating a dummy array",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
