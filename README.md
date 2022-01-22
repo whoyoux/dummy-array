@@ -21,19 +21,19 @@ $ yarn add dummy-array
 ## Usage
 
 ```js
-import { createArray } from 'dummy-array'
+import { createArray } from 'dummy-array';
 
 // Basic usage, returns [0,1]
 createArray({ to: 2 });
 
 // With 'from' parameter, returns [2, 3]
-createArray({ from: 2 to: 4 });
+createArray({ from: 2, to: 4 });
 
 // With 'step' parameter, returns [0, 2, 4]
-createArray({ step: 2, to: 5 })
+createArray({ step: 2, to: 5 });
 
 // With `from ` and `step` parameter, returns [5, 7, 9]
-createArray({ from: 5, step: 2, to: 10 })
+createArray({ from: 5, step: 2, to: 10 });
 ```
 
 ### Options
