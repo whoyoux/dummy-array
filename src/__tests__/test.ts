@@ -1,4 +1,5 @@
 import { createArray } from '../index';
+
 test('Create Array', () => {
   expect(createArray({ to: 2 })).toEqual([0, 1]);
 });
